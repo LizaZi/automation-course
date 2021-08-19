@@ -1,0 +1,54 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1629328268913' stop='1629328269076'>
+    <name>Functionality</name>
+    <title>Functionality</title>
+    <test-cases>
+        <test-case start='1629328268914' status='broken' stop='1629328269076'>
+            <name>Click Add Button Adds a Table Row</name>
+            <title>Click Add Button Adds a Table Row</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps>
+                <step start='1629328268914' status='passed' stop='1629328268926'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='4e852424-cfbf-4861-8f7b-9f0bf2bf56d7-attachment.json' type='application/json' size='63'/>
+                        <attachment title='Response' source='d6b7eb9f-528c-4a02-87ef-e4a32f4d5d3b-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1629328268928' status='passed' stop='1629328268941'>
+                    <name>POST /session/:sessionId/element/04542498-8dda-4c33-9fa3-61a20379bc92/elements</name>
+                    <title>POST /session/:sessionId/element/04542498-8dda-4c33-9fa3-61a20379bc92/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='7c901900-868f-4a08-ad0e-1844eb0696e3-attachment.json' type='application/json' size='46'/>
+                        <attachment title='Response' source='6f57a48f-75e6-4070-99f7-1b5b41b657be-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1629328268958' status='passed' stop='1629328269075'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='4b7dc12a-2a59-456f-bdf9-35b806422cbc-attachment.png' type='image/png' size='25777'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>this.addPlayerTable.$$(...).count is not a function</message>
+                <stack-trace>TypeError: this.addPlayerTable.$$(...).count is not a function
+                    at Publicgame.countRows (/Users/lazizaziadullaeva/Documents/IT School/authomationcourse/test/classes/pages/publicgame.page.js:127:53)
+                    at Context.&lt;anonymous> (/Users/lazizaziadullaeva/Documents/IT School/authomationcourse/test/specs/regression/publicgame.js:80:35)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

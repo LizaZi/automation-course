@@ -1,0 +1,206 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1628442256369' stop='1628442256864'>
+    <name>Functionality</name>
+    <title>Functionality</title>
+    <test-cases>
+        <test-case start='1628442256369' status='broken' stop='1628442256464'>
+            <name>Error message appears if only Email field is empty and click Remind Password</name>
+            <title>Error message appears if only Email field is empty and click Remind Password</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps>
+                <step start='1628442256370' status='broken' stop='1628442256464'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='b9a96e86-450e-4f66-966a-c12a83011581-attachment.json' type='application/json' size='41'/>
+                    </attachments>
+                    <steps>
+                        <step start='1628442256420' status='broken' stop='1628442256464'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: window was already closed
+                  (Session info: chrome=92.0.4515.131)</message>
+                <stack-trace>no such window: window was already closed
+                  (Session info: chrome=92.0.4515.131)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+                    at Browser.url (/Users/lazizaziadullaeva/Documents/IT School/authomationcourse/node_modules/@wdio/runner/node_modules/@wdio/utils/build/shim.js:219:24)
+                    at Context.&lt;anonymous> (/Users/lazizaziadullaeva/Documents/IT School/authomationcourse/test/specs/regression/forgot.js:43:17)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1628442256464' status='broken' stop='1628442256562'>
+            <name>Error message disapears on input in Email field</name>
+            <title>Error message disapears on input in Email field</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps>
+                <step start='1628442256466' status='broken' stop='1628442256562'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='e84e1dc6-c0e8-4681-8460-75cd2f4c5bda-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps>
+                        <step start='1628442256509' status='broken' stop='1628442256562'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: window was already closed
+                  (Session info: chrome=92.0.4515.131)</message>
+                <stack-trace>no such window: window was already closed
+                  (Session info: chrome=92.0.4515.131)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+                    at Browser.&lt;anonymous> (/Users/lazizaziadullaeva/Documents/IT School/authomationcourse/node_modules/@wdio/runner/node_modules/@wdio/utils/build/shim.js:219:24)
+                    at $ (/Users/lazizaziadullaeva/Documents/IT School/authomationcourse/node_modules/@wdio/runner/build/index.js:189:42)
+                    at Context.&lt;anonymous> (/Users/lazizaziadullaeva/Documents/IT School/authomationcourse/test/specs/regression/forgot.js:53:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1628442256563' status='broken' stop='1628442256666'>
+            <name>Error message appears if Email is incorrect</name>
+            <title>Error message appears if Email is incorrect</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps>
+                <step start='1628442256563' status='broken' stop='1628442256666'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='26a124b0-979c-490a-ab06-458e351dd60f-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps>
+                        <step start='1628442256616' status='broken' stop='1628442256666'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: window was already closed
+                  (Session info: chrome=92.0.4515.131)</message>
+                <stack-trace>no such window: window was already closed
+                  (Session info: chrome=92.0.4515.131)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+                    at Browser.&lt;anonymous> (/Users/lazizaziadullaeva/Documents/IT School/authomationcourse/node_modules/@wdio/runner/node_modules/@wdio/utils/build/shim.js:219:24)
+                    at $ (/Users/lazizaziadullaeva/Documents/IT School/authomationcourse/node_modules/@wdio/runner/build/index.js:189:42)
+                    at Context.&lt;anonymous> (/Users/lazizaziadullaeva/Documents/IT School/authomationcourse/test/specs/regression/forgot.js:58:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1628442256666' status='broken' stop='1628442256771'>
+            <name>Success message appears if Email is correct</name>
+            <title>Success message appears if Email is correct</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps>
+                <step start='1628442256668' status='broken' stop='1628442256771'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='7918595d-be02-4471-a818-783147d089c0-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps>
+                        <step start='1628442256719' status='broken' stop='1628442256771'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: window was already closed
+                  (Session info: chrome=92.0.4515.131)</message>
+                <stack-trace>no such window: window was already closed
+                  (Session info: chrome=92.0.4515.131)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+                    at Browser.&lt;anonymous> (/Users/lazizaziadullaeva/Documents/IT School/authomationcourse/node_modules/@wdio/runner/node_modules/@wdio/utils/build/shim.js:219:24)
+                    at $ (/Users/lazizaziadullaeva/Documents/IT School/authomationcourse/node_modules/@wdio/runner/build/index.js:189:42)
+                    at Context.&lt;anonymous> (/Users/lazizaziadullaeva/Documents/IT School/authomationcourse/test/specs/regression/forgot.js:66:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1628442256773' status='broken' stop='1628442256864'>
+            <name>User is redirected to </name>
+            <title>User is redirected to </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps>
+                <step start='1628442256774' status='broken' stop='1628442256864'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='babbc0b1-c75e-475d-86ce-00fe87ccb258-attachment.json' type='application/json' size='55'/>
+                    </attachments>
+                    <steps>
+                        <step start='1628442256821' status='broken' stop='1628442256864'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: window was already closed
+                  (Session info: chrome=92.0.4515.131)</message>
+                <stack-trace>no such window: window was already closed
+                  (Session info: chrome=92.0.4515.131)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+                    at Browser.&lt;anonymous> (/Users/lazizaziadullaeva/Documents/IT School/authomationcourse/node_modules/@wdio/runner/node_modules/@wdio/utils/build/shim.js:219:24)
+                    at $ (/Users/lazizaziadullaeva/Documents/IT School/authomationcourse/node_modules/@wdio/runner/build/index.js:189:42)
+                    at Context.&lt;anonymous> (/Users/lazizaziadullaeva/Documents/IT School/authomationcourse/test/specs/regression/forgot.js:74:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

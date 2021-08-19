@@ -1,0 +1,129 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1628486883172' stop='1628486883463'>
+    <name>Functionality</name>
+    <title>Functionality</title>
+    <test-cases>
+        <test-case start='1628486883173' status='passed' stop='1628486883285'>
+            <name>Clicking RU changes the toggle to EN</name>
+            <title>Clicking RU changes the toggle to EN</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps>
+                <step start='1628486883174' status='passed' stop='1628486883185'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='fd01893e-d392-40f4-9bf5-f8e09e6bc6a5-attachment.json' type='application/json' size='59'/>
+                        <attachment title='Response' source='0ffc81ec-af6b-477b-af8c-f8f182ee4e69-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1628486883188' status='passed' stop='1628486883238'>
+                    <name>POST /session/:sessionId/element/9079c906-1c55-4857-93b8-15d970a4adbe/click</name>
+                    <title>POST /session/:sessionId/element/9079c906-1c55-4857-93b8-15d970a4adbe/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1628486883238' status='passed' stop='1628486883264'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2f824d68-66ec-4189-b824-62987407549f-attachment.json' type='application/json' size='59'/>
+                        <attachment title='Response' source='30452305-fb2c-4963-89e5-87b461f260f4-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1628486883268' status='passed' stop='1628486883284'>
+                    <name>GET /session/:sessionId/element/2942fde6-a802-4ad6-9b25-211006cb48ce/text</name>
+                    <title>GET /session/:sessionId/element/2942fde6-a802-4ad6-9b25-211006cb48ce/text</title>
+                    <attachments>
+                        <attachment title='Response' source='14493ec5-9b83-4aa4-8e59-301888141bdf-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1628486883285' status='passed' stop='1628486883377'>
+            <name>Clicking EN changes the toggle to RU</name>
+            <title>Clicking EN changes the toggle to RU</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps>
+                <step start='1628486883285' status='passed' stop='1628486883298'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c36b3e6e-ef25-4d16-84bc-3bb2330f6085-attachment.json' type='application/json' size='59'/>
+                        <attachment title='Response' source='a49b59e8-9dcd-47a0-be89-56522d569fb9-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1628486883301' status='passed' stop='1628486883340'>
+                    <name>POST /session/:sessionId/element/2942fde6-a802-4ad6-9b25-211006cb48ce/click</name>
+                    <title>POST /session/:sessionId/element/2942fde6-a802-4ad6-9b25-211006cb48ce/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1628486883340' status='passed' stop='1628486883352'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='96307e6b-cf70-42b3-a05f-ca4718486d0a-attachment.json' type='application/json' size='59'/>
+                        <attachment title='Response' source='dea77e3b-5e7f-49e8-8588-b3b679f6f75b-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1628486883356' status='passed' stop='1628486883376'>
+                    <name>GET /session/:sessionId/element/03bf0f3e-ed9f-40e5-828e-24aaf29f257e/text</name>
+                    <title>GET /session/:sessionId/element/03bf0f3e-ed9f-40e5-828e-24aaf29f257e/text</title>
+                    <attachments>
+                        <attachment title='Response' source='f6174437-fbbb-481f-b793-d2b65455fa5c-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1628486883378' status='broken' stop='1628486883461'>
+            <name>Clicking React Smart Development redirects to https://www.reactsmart.dev/</name>
+            <title>Clicking React Smart Development redirects to https://www.reactsmart.dev/</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps>
+                <step start='1628486883381' status='passed' stop='1628486883460'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='506e3c29-7f90-46fc-94ce-da1b978f94dc-attachment.png' type='image/png' size='33545'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'devDisp' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'devDisp' of undefined
+                    at Context.&lt;anonymous> (/Users/lazizaziadullaeva/Documents/IT School/authomationcourse/test/specs/regression/footer.js:72:21)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

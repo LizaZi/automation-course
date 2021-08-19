@@ -1,0 +1,45 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1629329023583' stop='1629329023723'>
+    <name>Functionality</name>
+    <title>Functionality</title>
+    <test-cases>
+        <test-case start='1629329023583' status='broken' stop='1629329023722'>
+            <name>Click Add Button Adds a Table Row</name>
+            <title>Click Add Button Adds a Table Row</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps>
+                <step start='1629329023583' status='passed' stop='1629329023596'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='7f4dfca7-6bfd-438a-b446-a67a100616ae-attachment.json' type='application/json' size='63'/>
+                        <attachment title='Response' source='de5d9f9e-f53a-459b-9059-549ed38c9de9-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1629329023610' status='passed' stop='1629329023718'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='685348c7-c42d-43fe-b8ac-bbc89cf5baa6-attachment.png' type='image/png' size='25777'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>tr is not defined</message>
+                <stack-trace>ReferenceError: tr is not defined
+                    at Publicgame.countRows (/Users/lazizaziadullaeva/Documents/IT School/authomationcourse/test/classes/pages/publicgame.page.js:127:47)
+                    at Context.&lt;anonymous> (/Users/lazizaziadullaeva/Documents/IT School/authomationcourse/test/specs/regression/publicgame.js:80:35)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

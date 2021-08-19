@@ -1,0 +1,87 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1628398130747' stop='1628398130971'>
+    <name>Values</name>
+    <title>Values</title>
+    <test-cases>
+        <test-case start='1628398130765' status='broken' stop='1628398130875'>
+            <name>Email placeholde</name>
+            <title>Email placeholde</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps>
+                <step start='1628398130767' status='broken' stop='1628398130875'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='7a8af53a-2aaa-42db-851d-e8bd235ccd43-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps>
+                        <step start='1628398130830' status='broken' stop='1628398130875'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: window was already closed
+                  (Session info: chrome=92.0.4515.131)</message>
+                <stack-trace>no such window: window was already closed
+                  (Session info: chrome=92.0.4515.131)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+                    at Browser.&lt;anonymous> (/Users/lazizaziadullaeva/Documents/IT School/authomationcourse/node_modules/@wdio/runner/node_modules/@wdio/utils/build/shim.js:219:24)
+                    at $ (/Users/lazizaziadullaeva/Documents/IT School/authomationcourse/node_modules/@wdio/runner/build/index.js:189:42)
+                    at Context.&lt;anonymous> (/Users/lazizaziadullaeva/Documents/IT School/authomationcourse/test/specs/regression/forgot.js:69:22)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1628398130876' status='broken' stop='1628398130971'>
+            <name>Value-RemindPassword</name>
+            <title>Value-RemindPassword</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps>
+                <step start='1628398130877' status='broken' stop='1628398130971'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='76ff5a64-2ad9-4b2b-a774-c52ff984fe5f-attachment.json' type='application/json' size='55'/>
+                    </attachments>
+                    <steps>
+                        <step start='1628398130928' status='broken' stop='1628398130971'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: window was already closed
+                  (Session info: chrome=92.0.4515.131)</message>
+                <stack-trace>no such window: window was already closed
+                  (Session info: chrome=92.0.4515.131)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+                    at Browser.&lt;anonymous> (/Users/lazizaziadullaeva/Documents/IT School/authomationcourse/node_modules/@wdio/runner/node_modules/@wdio/utils/build/shim.js:219:24)
+                    at $ (/Users/lazizaziadullaeva/Documents/IT School/authomationcourse/node_modules/@wdio/runner/build/index.js:189:42)
+                    at Context.&lt;anonymous> (/Users/lazizaziadullaeva/Documents/IT School/authomationcourse/test/specs/regression/forgot.js:75:22)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
